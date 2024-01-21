@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #014E56;
+    width: 1536px;
+    height: 695px;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+    margin-top: 100px;
+    margin-left: -59px;
+}
+
+.pages {
+    display: flex;
+    position: absolute;
+    margin-left: 168px;
+    margin-top: 83px;
+
+}
+
+.container-page {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style-type: none;
+    margin-top: -114px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-family: Livvic;
+}
+
+.button-header {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px;
+    background-color: #ffffff00;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 750px;
+}
+
+
+.left-circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -441px;
+    margin-left: -268px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+    width: 526px;
+    height: 200px;
+    position: absolute;
+    margin-top: -446px;
+    margin-left: -57px;
+}
+
+.span-tittle {
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+
+.lorem {
+    width: 414px;
+    height: 112px;
+    color: #fff;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 28px;
+    position: absolute;
+    margin-top: -363px;
+    margin-left: 630px;
+}
+
+.rectangel {
+    position: absolute;
+    margin-top: -445px;
+    margin-left: 630px;
+    position: absolute;
+}
+
+
+.duble-circle {
+    width: 326px;
+    height: 101px;
+    margin-left: 714px;
+    margin-top: -101px;
+    position: absolute;
+}
+
+
+.useful {
+    background-color: #012F34;
+    width: 1536px;
+    height: 695px
+}
+
+.rectangel-red {
+    margin-top: 140px;
+    margin-left: -45px;
+    position: absolute;
+}
+
+.useful-tittle {
+    width: 445px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 198px;
+    margin-left: -45px;
+    position: absolute;
+}
+
+.img-people {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 550px;
+}
+
+.people-red {
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 198px;
+    position: absolute;
+    margin-left: 643px;
+}
+
+.people-lorem {
+    width: 445px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    opacity: 0.8;
+    margin-top: 242px;
+    margin-left: 643px;
+    position: absolute;
+}
+
+
+.servise-key {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    margin-top: 324px;
+    margin-left: 550px;
+}
+
+.servise-red {
+    width: 445px;
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    margin-top: 324px;
+    margin-left: 643px;
+}
+
+.servise-lorem {
+    width: 445px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    margin-top: 368px;
+    margin-left: 643px;
+}
+
+
+.img-degree {
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 550px;
+}
+
+.degree-red {
+    width: 445px;
+    color: #F67E7E;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 643px;
+}
+
+.degree-lorem {
+    width: 445px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    margin-top: 494px;
+    margin-left: 643px;
+}
+
+.img-righ {
+    width: 200px;
+    height: 244px;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 1168px;
+}
+
+.presentation {
+    background-color: #004047;
+    width: 1536px;
+    height: 695px
+}
+
+.corner-element {
+    width: 147px;
+    height: 100px;
+    position: absolute;
+    margin-left: -218px;
+
+}
+
+.presentation-tittle {
+    width: 932px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 140px;
+    margin-left: 10px;
+    position: absolute;
+}
+
+.presentation-tittle-span {
+    color: #79C8C7;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.icon-one {
+    width: 67px;
+    height: 56px;
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 65px;
+}
+
+.img-one-lorem {
+    width: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    margin-top: 328px;
+    margin-left: -73px;
+}
+
+.first-name {
+    width: 350px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    margin-top: 452px;
+    margin-left: -72px;
+}
+
+.first-professinon {
+    width: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 482px;
+    margin-left: -73px;
+}
+
+.first-img {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    margin-top: 532px;
+    margin-left: 73px;
+}
+
+.second-icon {
+    width: 67px;
+    height: 56px;
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 453px;
+}
+
+.img-two-lorem {
+    width: 321px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    margin-top: 328px;
+    margin-left: 324px;
+}
+
+.second-name {
+    width: 350px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    margin-top: 452px;
+    margin-left: 312px;
+}
+
+.second-profession {
+    width: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 482px;
+    margin-left: 311px;
+}
+
+.second-img {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    margin-top: 532px;
+    margin-left: 457px;
+}
+
+.third-icon {
+    width: 67px;
+    height: 56px;
+    position: absolute;
+    margin-top: 292px;
+    margin-left: 825px;
+}
+
+.img-third-lorem {
+    width: 321px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    position: absolute;
+    margin-top: 328px;
+    margin-left: 696px;
+}
+
+.third-name {
+    width: 350px;
+    color: #79C8C7;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    position: absolute;
+    margin-top: 452px;
+    margin-left: 688px;
+}
+
+.third-profession {
+    width: 350px;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    position: absolute;
+    margin-top: 482px;
+    margin-left: 687px;
+}
+
+.third-img {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    margin-top: 532px;
+    margin-left: 834px;
+}
+
+
+.ready {
+    background-color: #F67E7E;
+    width: 1536px;
+    height: 200px;
+}
+
+.circle {
+    position: absolute;
+    margin-top: 56px;
+    margin-left: -218px;
+}
+
+.ready-tittle {
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 76px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.ready-button {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    border: 2px solid #012F34;
+    color: #012F34;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    background-color: #00404700;
+    position: absolute;
+    margin: 76px;
+    margin-left: 800px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #002529;
+    width: 1536px;
+    height: 196px;
+}
+
+.footer-logo {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: -50px;
+}
+
+.footer-pages {
+    display: flex;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 113px;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 40px;
+    font-family: Livvic;
+}
+
+.addres {
+    width: 445px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 232px;
+}
+
+.logo-icon {
+    width: 104px;
+    height: 24px;
+    position: absolute;
+    margin-top: 48px;
+    margin-left: 943px;
+}
+
+.date {
+    width: 255px;
+    color: #FFF;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 25px;
+    opacity: 0.6;
+    position: absolute;
+    margin-top: 123px;
+    margin-left: 789px;
+}
